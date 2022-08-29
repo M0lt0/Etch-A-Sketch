@@ -32,3 +32,17 @@ h1 {
 .box:hover {
   border: solid rgb(255, 0, 0);
 }
+.controls {
+  display: flex;
+  flex-direction: row;
+}
+.controls > * {
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  width: 80px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}

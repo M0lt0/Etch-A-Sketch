@@ -17,7 +17,6 @@ function divCreator(number) {
     let box = document.createElement("div");
     box.classList.add("box");
     container.append(box);
-    box.innerText = i;
     box.addEventListener("mousedown", colorChange);
   }
 }
