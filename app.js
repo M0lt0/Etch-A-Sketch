@@ -2,7 +2,7 @@ let body = document.querySelector("body");
 let container = document.querySelector(".container");
 let button = document.querySelector(".button");
 let rest = document.querySelector(".rest");
-
+let inputColor = document.querySelector(".input-color");
 //initial grid
 function divCreator(number) {
   let boxes = container.querySelectorAll("div");
@@ -22,7 +22,7 @@ function divCreator(number) {
   }
 }
 function colorChange() {
-  this.style.backgroundColor = "black";
+  this.style.backgroundColor = `${inputColor.value}`;
 }
 
 divCreator(16);
